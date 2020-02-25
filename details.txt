@@ -1,0 +1,33 @@
+				# LIBRARY MANAGEMENT SYSTEM #
+
+
+there are four table present in this project
+
+
+1 Books
+2 Publisher
+3 Borrowed_By
+4 Member
+
+
+In Book Table has five coloums.first coloum is (Book_id)  as a primary key type is depand on its requirment (int,varchar,bigint),
+Second Coloum is (Author) type is varchar, 
+Third coloum is (title) type is varchar
+four coloum is (Price) type is Float
+Fifth coloum is (Available) type is int this coloum show the remaining stock of Book 
+
+In Publisher Table has Three Coloums.First coloum is (Pub_ID) as a Primary key,
+type is depand on its requirment (int,varchar,bigint),
+Second Coloum is (Name) type is  varchar
+Third coloum is (Address) Type varchar
+
+In Borrowed Table has three coloums.First coloum is (Due Date) type is  date
+Second coloum is (Return Date) for  return the book to the library typr is  date
+Third  coloum is (Issue) for Who Issue the book type is same as member table primary key because we use here as foregn key
+
+In Member Table has six coloum. First coloum is (Member_Id) as a primary key type is depand on its requirment (int,bigint,varchar)
+Second coloum is (Name) type is varchar
+Third coloum is (Member_date) type is date ,and coloum show's the on which date member join this library 
+Four coloum is (Member_Type) type is varchar 
+Fifth coloum is (Address) type is varchar
+Six coloum is (Expiry_Date) type date and coloum show on which date the membership is expire of the member
