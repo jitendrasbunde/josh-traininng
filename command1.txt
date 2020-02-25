@@ -1,0 +1,98 @@
+
+# MAKE A CLONE OF PROJECT
+git clone git@github.com:Manish21-v/AccountApplication.git
+
+
+# CREATE A BRANCH FOR YOUR WORK ON FEATURE
+git checkout -b Deposit
+
+
+#OPEN A FILE YOU WANT  TO CHANGE 
+code FinanceBank.rb
+
+git add :->> this command is use for the add  modified file to commit
+EXAMPLE ------> git add Account.rb
+
+
+
+git status :->> this command is use to check which file's are modified and show the file in (unstage mode) or change to commit
+
+
+git diff :--> this command is use for check the only which code are modified, but this command show's the code before add this file to commit 
+
+
+git diff --cached :-->  this command is use for check the only which code are modified, but this command show's the code after add this file to commit
+
+
+git commit :->>  this command is use to commited the code
+
+
+git commit --amend :-->  convenient way to modify the most recent commit. It lets you combine staged changes with the previous commit instead of creating an entirely new commit. It can also be used to simply edit the previous commit message without changing its snapshot. But, amending does not just alter the most recent commit, it replaces it entirely, meaning the amended commit will be a new entity with its own ref.
+
+
+
+
+
+git merge :-> it is use to combine a two branch 
+
+
+git show :->
+git annotate :->
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------- VI COMMANDS ---------------------------------------------------------------
+
+
+
+
+vi File_Name.extention
+
+# INSERTING TEXT 
+
+i :->> insert text before cursor position
+a :->> insert text after cursor position
+I :->> insert text at beginning of current line of file 
+A :->> insert text after end of current line of file
+o :->> open a line below current line and insert text
+O :->> open a line above current line and insert text
+
+
+# DELETING TEXT
+
+x :->> delete one character
+7x :->> delete 7 character
+dw :->> delete one word
+10 dw :->> delete 10 word
+dd :->> delete one line 
+21dd :-> delete 21 line
+D :->> delete from cursor to the end of that line 
+
+
+# MOVINF TEXT
+
+yy :->> yanks one line into abuffer without deleting that line
+3yy :->> yanks three lines into a buffer without deleting those lines
+p :->> puts line(s) from buffer into file after the current line 
+P :->> puts line(s) from buffer into file before the current line 
+J :->> joins the line below the current line with the current line
+
+
+# CHANGING TEXT
+
+~ :->> change the case of a letter and advance the cursor
+5~ :->> change the case of a 5 letter and advancce the cursor five spaces
+r :->> replace a character
+R :->> replace everything until you press <ESCAPE>
+cw :->> changes a word to everything typed between cw and <ESCAPE>
+
+
+# SAVING AND QUITTING
+:w  ~>> writes the file while remaining in the file
+:w new_file_name ~>> saves the current file under a new name 
+:wq ~>> write the file and quits the vi session, closing the file
+:q ~>> quit when you have NOT changed a file
+:q! ~>> really quit - without saving ANY changes(use with care!)
+
+

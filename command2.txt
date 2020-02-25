@@ -1,0 +1,24 @@
+git cherry-pick  :-->> this command is most powerful command this use to reuse the code written in another feature branch
+Example ------> git  cherry-pick (PASTE THE COMMIT ID/HASH )
+
+git rebase :->> in this command designed to integrate changes from one branch into another branch but each commit it create merge process because of this if not up to date your master branch then unnesscessary conflick has to created
+
+
+
+git reset :---> it just use as undo all code to initial stage .(code after the pull request)
+
+
+rebase:->
+if you are upto date with your master code that time we use the rebase to integrate 
+
+
+merge :-->
+if you are not upto datte with you master code you are code behind 10 - 15 commit oe more that time we use to merge to integrate the changes  
+
+
+
+Mostly as a good develper you should be upto date with your master branch and use should be use rebase rather than merge
+
+
+
+
