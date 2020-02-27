@@ -1,0 +1,79 @@
+
+regex is regular Expressions
+it is pattern matching
+
+
+/[sh[]]/
+
+[akllhacln] => any one are matching
+
+[A-H]
+
+
+
+
+a5b12a3b9c10d15
+a23b5c9b14d10
+a9b15c12
+
+email  *
+phone_no
+Ip Address  *
+URL 
+method like :-> splite 
+each
+each with index
+map  collect select map with_index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------  Class and Objects------------------------------------
+
+27-02-20
+instance method me class_variable define karo
+
+we use "self" in method or not
+
+kaha pe call by value and reference 
+
+Documentation read karna sikho
+
+method class ki Documentation me jake 
+
+class Member
+id 
+name 
+type
+gender
+
+class Book
+
+name
+type
+no.of.page
+no.of.book 
+id
+status
+issue_date
+return date
