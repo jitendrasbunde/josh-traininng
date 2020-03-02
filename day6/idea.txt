@@ -1,0 +1,10 @@
+we can create a module  and 
+
+asign a common methods to them which we have use in so many class has to same method and we achive a multiple
+inheritance
+
+type 
+status 
+area
+user count
+payment 
